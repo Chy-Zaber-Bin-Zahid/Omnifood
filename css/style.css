@@ -198,7 +198,7 @@
   padding: 9.6rem 0;
 }
 
-.meal{
+.meal {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
   overflow: hidden;
@@ -210,17 +210,17 @@
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 
-.meal-content{
+.meal-content {
   padding: 3.2rem 4.8rem 4.8rem 4.8rem;
 }
 
-.meal-tags{
+.meal-tags {
   margin-bottom: 1.2rem;
   display: flex;
   gap: 0.4rem;
 }
 
-.tag{
+.tag {
   display: inline-block;
   padding: 0.4rem 0.8rem;
   font-size: 1.2rem;
@@ -231,13 +231,13 @@
   font-weight: bold;
 }
 
-.tag--vegetarian{
+.tag--vegetarian {
   background-color: #51cf66;
 }
-.tag--vegan{
+.tag--vegan {
   background-color: #94d82d;
 }
-.tag--paleo{
+.tag--paleo {
   background-color: #ffd43d;
 }
 
@@ -272,57 +272,86 @@
   width: 100%;
 }
 
-.all-recipes{
+.all-recipes {
   text-align: center;
   font-size: 1.8rem;
 }
 
-.list{
+.list {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
 }
 
-.list-item{
+.list-item {
   font-size: 1.8rem;
   display: flex;
   align-items: center;
   gap: 1.6rem;
 }
 
-.list-icon{
+.list-icon {
   width: 3rem;
   height: 3rem;
   color: #e67e22;
 }
 
 /* Testimonial Section */
-.section-testimonials{
-  padding: 9.6rem 0;
+.section-testimonials {
+  background-color: #fdf2e9;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
 }
 
-.testimonials{
+.testimonial-container{
+  padding: 9.6rem;
+}
+
+.testimonials {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4.8rem;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
 }
 
-.testimonial-img{
+.testimonial-img {
   width: 6.4rem;
   border-radius: 50%;
   margin-bottom: 1.2rem;
 }
 
-.testimonial-text{
+.testimonial-text {
   font-size: 1.8rem;
   line-height: 1.8;
   margin-bottom: 1.6rem;
   font-weight: bold;
 }
 
-.testimonial-name{
-font-size: 1.6rem;
-color: #777;
-font-weight: bold;
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+  font-weight: bold;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-item{
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
 }
