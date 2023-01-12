@@ -38,7 +38,7 @@ body {
   margin-bottom: 0;
 } */
 
-.grid:not(:last-child){
+.grid:not(:last-child) {
   margin-bottom: 9.6rem;
 }
 
@@ -172,14 +172,14 @@ body {
   margin-right: 1.6rem !important;
 }
 
-.margin-bottom-md{
+.margin-bottom-md {
   margin-bottom: 4.8rem !important;
 }
 
-.center-text{
+.center-text {
   text-align: center;
 }
 
-strong{
+strong {
   font-weight: bold;
 }
