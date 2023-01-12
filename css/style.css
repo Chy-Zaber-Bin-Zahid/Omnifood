@@ -305,7 +305,7 @@
   align-items: center;
 }
 
-.testimonial-container{
+.testimonial-container {
   padding: 9.6rem;
 }
 
@@ -342,7 +342,7 @@
   padding: 1.6rem;
 }
 
-.gallery-item{
+.gallery-item {
   overflow: hidden;
 }
 
@@ -357,50 +357,50 @@
 }
 
 /* Pricing Section */
-.section-pricing{
+.section-pricing {
   padding: 9.6rem 0;
 }
 
-.pricing-plan{
+.pricing-plan {
   /* background-color: #fdf2e9; */
   border-radius: 11px;
-  
+
   width: 75%;
 }
 
-.pricing-plan--starter{
+.pricing-plan--starter {
   justify-self: end;
   border: 2px solid #fdf2e9;
   padding: 4.6rem;
 }
 
-.pricing-plan--complete{
+.pricing-plan--complete {
   padding: 4.8rem;
   background-color: #fdf2e9;
   position: relative;
   overflow: hidden;
 }
 
-.pricing-plan--complete::after{
- content: "Best value";
- padding: 0.8rem 8rem;
- color: #333;
- transform: rotate(45deg);
- top: 6%;
- right: -18%;
- background-color: #ffd43d;
- position: absolute;
- text-transform: uppercase;
- font-size: 1.4rem;
- font-weight: bold;
+.pricing-plan--complete::after {
+  content: "Best value";
+  padding: 0.8rem 8rem;
+  color: #333;
+  transform: rotate(45deg);
+  top: 6%;
+  right: -18%;
+  background-color: #ffd43d;
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: bold;
 }
 
-.plan-header{
+.plan-header {
   text-align: center;
   margin-bottom: 4.8rem;
 }
 
-.plan-name{
+.plan-name {
   color: #cf711f;
   font-weight: bold;
   font-size: 2rem;
@@ -409,65 +409,65 @@
   margin-bottom: 3.2rem;
 }
 
-.plan-price{
+.plan-price {
   font-size: 6.2rem;
   font-weight: bold;
   color: #333;
   margin-bottom: 1.6rem;
 }
 
-.plan-price span{
+.plan-price span {
   font-size: 3rem;
   font-size: bold;
   margin-right: 0.8rem;
 }
 
-.plan-text{
+.plan-text {
   font-size: 1.6rem;
   line-height: 1.6;
   color: #6f6f6f;
 }
 
-.plan-sign-up{
+.plan-sign-up {
   text-align: center;
   margin-top: 4.8rem;
 }
 
-.plan-details{
+.plan-details {
   font-size: 1.6rem;
   line-height: 1.6;
   text-align: center;
 }
 
 /* Feature Section */
-.feauture-icon{
-color: #e67e22;
-height: 3.2rem;
-width: 3.2rem;
-background-color: #fdf2e9;
-margin-bottom: 3.2rem;
-padding: 1.6rem;
-border-radius: 50%;
+.feauture-icon {
+  color: #e67e22;
+  height: 3.2rem;
+  width: 3.2rem;
+  background-color: #fdf2e9;
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
 }
 
-.feauture-title{
-font-size: 2.4rem;
-color: #333;
-font-weight: bold;
-margin-bottom: 1.6rem;
+.feauture-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 1.6rem;
 }
 
-.feauture-text{
-font-size: 1.8rem;
-line-height: 1.8;
+.feauture-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
 
 /* CTA Section */
-.section-cta{
+.section-cta {
   padding: 9.6rem 0;
 }
 
-.cta{
+.cta {
   display: grid;
   grid-template-columns: 2fr 1fr;
   /* background-color: #e67e22; */
@@ -476,16 +476,68 @@ line-height: 1.8;
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
   overflow: hidden;
 
-  height: 54rem;
+  /* height: 54rem; */
 }
 
-.cta-text-box{
-
+.cta-text-box {
+  color: #45260a;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
 }
 
-.cta-img-box{
-  background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.351), rgb(230, 125, 34, 0.35)), url("../img/eating.jpg");
+.cta .heading-secondary {
+  color: #45260a;
+  margin-bottom: 3.2rem;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 151, 78, 0.351),
+      rgb(230, 125, 34, 0.35)
+    ),
+    url("../img/eating.jpg");
   background-size: cover;
   background-position: center;
+}
 
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  border: none;
+  color: inherit;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  box-shadow: 0 1 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.cta *:focus{
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgb(253, 242, 233, 0.5);
 }

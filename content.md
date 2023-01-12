@@ -75,7 +75,6 @@ Healthy, tasty and hassle-free meals are waiting for you. Start eating well toda
 
 ### We have 2 pricing plans
 
-Prices include all applicable taxes. Users can cancel at any time.
 
 Starter: $399 per month
 
