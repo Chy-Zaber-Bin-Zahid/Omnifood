@@ -68,6 +68,22 @@ color: #333;
   background-color: #cf711f;
 }
 
+/* Sticky Navigation */
+.sticky .header{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  box-shadow: 0 1.2rem 3.2rem rgba(0,0,0,0.3);
+}
+
+.sticky section-hero{
+  margin-top: 9.6rem;
+}
 /* Section hero */
 .section-hero {
   background-color: #fdf2e9;
