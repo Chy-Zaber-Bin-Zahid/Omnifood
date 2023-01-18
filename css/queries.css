@@ -110,6 +110,7 @@
   /* Mobile navigation */
   .btn-mobile-nav {
     display: block;
+    z-index: 9999;
   }
 
   .main-nav {
@@ -137,7 +138,7 @@
   .nav-open .main-nav {
     opacity: 1;
     pointer-events: auto;
-    visibility: visiblev;
+    visibility: visible;
     transform: translateX(0);
   }
 
